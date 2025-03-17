@@ -1,0 +1,6 @@
+@AgentRGHNTT_HostAddress = http://localhost:5187
+
+POST {{AgentRGHNTT_HostAddress}}/api/Agent/message-process
+Accept: application/json
+Body:{messae: "Hello World"}}
+###
