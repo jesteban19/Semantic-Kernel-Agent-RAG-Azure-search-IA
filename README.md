@@ -30,6 +30,25 @@ El sistema se compone de los siguientes módulos:
 - Soporte para múltiples fuentes de información en RAG.
 - Optimizar recuperación semántica con embeddings personalizados.
 
+
+## Enviroments
+
+
+## Variables de Entorno
+
+Para configurar el proyecto, se deben definir las siguientes variables de entorno:
+
+``.env``
+
+| Variable            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| MODEL_IA            | Modelo de IA utilizado (e.g., gpt-35-turbo)      |
+| OPENIA_URL          | URL del servicio OpenAI                          |
+| OPENIA_KEY          | Clave de acceso para OpenAI                      |
+| AZURE_SEARCH_KEY    | Clave de acceso para Azure Search                |
+| AZURE_SEARCH_INDEX  | Índice de búsqueda en Azure Search               |
+| AZURE_SEARCH_URL    | URL del servicio Azure Search                    |
+
 ---
 
 Este proyecto es una base para la creación de asistentes inteligentes con acceso seguro y contextualizado a la información empresarial.
